@@ -1,4 +1,4 @@
-# snaplet-riak
+# snaplet-riak ![](https://travis-ci.org/tmcgilchrist/snaplet-riak.svg?branch=master)
 
 A Snaplet for using Riak with the Snap Framework.
 
