@@ -1,13 +1,13 @@
 name:                snaplet-riak
-version:             0.2.0.0
+version:             0.2.1.0
 synopsis:            A Snaplet for the Riak database
 description:         A Snaplet allowing easy use of the Riak database within
                      the Snap framework.
-homepage:            http://github.com/statusfailed/snaplet-riak
+homepage:            http://github.com/tmcgilchrist/snaplet-riak
 license:             MIT
 license-file:        LICENSE
 author:              Paul Wilson
-maintainer:          paul@statusfailed.com
+maintainer:          timmcgil@gmail.com
 copyright:           
 category:            Database
 build-type:          Simple
@@ -34,4 +34,4 @@ library
 
 source-repository head
   type:     git
-  location: https://github.com/statusfailed/snaplet-riak.git
+  location: https://github.com/tmcgilchrist/snaplet-riak.git
