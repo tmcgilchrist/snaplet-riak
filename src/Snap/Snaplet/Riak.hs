@@ -29,8 +29,7 @@ import Control.Category ((.))
 import Control.Monad.State (MonadState, gets)
 import Control.Monad.IO.Class
 
-import Data.Lens.Common
-import Data.Lens.Template
+import Control.Lens
 
 import Snap.Snaplet
 
@@ -51,7 +50,7 @@ data RiakDB = RiakDB
   { _pool :: Pool
   }
 
-makeLens ''RiakDB
+makeLenses ''RiakDB
 
 -- | A class which, when implemented, allows the wrapper functions below to
 -- be used without explicitly managing the connection and having to use liftIO.
